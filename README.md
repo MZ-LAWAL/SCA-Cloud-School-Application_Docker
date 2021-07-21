@@ -1,7 +1,7 @@
 # Steps to create a Docker Images.
 
 1. Download Docker Desktop
-2. install Docker Desktop. Make sure Visualization is enabled st BIOS, WSL (Windows subsystem for Linus) and other requirements is meet. 
+2. Install Docker Desktop. Make sure Visualization is enabled at BIOS, WSL (Windows subsystem for Linus) and other requirements is meet. 
 3. Check HyperV and make sure it is installed and working.
 4. Check Virtual Machine Platform from Windows Features.
 5. Create a Directory for the static website.
@@ -23,7 +23,7 @@
     docker build -t  mizkas/sca_cloudschool:v1 .
     ```
 
-Above will build the image given it a tag of v1
+Above will build the image, given it a tag of v1.
 
 # Checking if the images exist
 
@@ -33,7 +33,7 @@ Above will build the image given it a tag of v1
 docker images
 ```
 
-# Resule
+# Result
 
 ```
 REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
@@ -49,7 +49,11 @@ mizkas/sca_cloudschool   v1        f24739a961dc   26 seconds ago   22.8MB
 docker push mizkas/sca_cloudschool:v1
 ```
 
+Below result will display the other instructions
 
-The push refers to repository [docker.io/mizkas/sca_cloudschool]
+
+** The push refers to repository [docker.io/mizkas/sca_cloudschool] **
+
+Below is the link to my Docker Hub repository
 
 https://hub.docker.com/repository/docker/mizkas/sca_cloudschool
