@@ -59,3 +59,7 @@ Below is the link to my Docker Hub repository
 https://hub.docker.com/repository/docker/mizkas/sca_cloudschool
 
 Note: It skip my eye that we should pick 1 of the two exercise, i did the 2 Exercise. Please perdon me, i have to submit the two.
+
+# First Exercise result 
+
+https://github.com/MZ-LAWAL/SCA-Cloud-School-Application
